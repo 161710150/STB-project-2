@@ -16,7 +16,7 @@
       <script src="{{ asset('/summernote/dist/summernote.js')}}"></script>
    </head>
    <body>
-      <div id="studentModal" class="modal fade" role="dialog" aria-hidden="true" data-backdrop="static">
+      <div id="studentModal2" class="modal fade" role="dialog" aria-hidden="true" data-backdrop="static">
       <div class="modal-dialog">
          <div class="modal-content">
             <form method="post" id="student_form" enctype="multipart/form-data">

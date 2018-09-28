@@ -17,8 +17,12 @@ class CreateDaftarSiswasTable extends Migration
             $table->increments('id');
             $table->string('Nama_Siswa');
             $table->string('Jenis_Kelamin');
+            $table->date('Tanggal_Lahir');
             $table->string('Jurusan');
             $table->string('Kelas');
+            $table->string('Alamat');
+            $table->string('Hobi');
+            $table->text('Foto')->nullable();
             $table->timestamps();
         });
     }

@@ -25,3 +25,5 @@ Route::get('ajaxdata/fetchdata', 'DaftarSiswaController@fetchdata')->name('ajaxd
 Route::post('siswa/edit/{id}','DaftarSiswaController@update');
 Route::get('siswa/getedit/{id}','DaftarSiswaController@edit');
 
+Route::get('/exportdata', 'DaftarSiswaController@exportdata')->name('siswaexport');
+
